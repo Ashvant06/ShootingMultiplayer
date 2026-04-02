@@ -1,0 +1,7 @@
+name: mythic_siege_server
+description: Render-ready WebSocket backend for Mythic Siege.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0

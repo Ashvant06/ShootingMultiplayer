@@ -1,0 +1,11 @@
+.dart_tool
+.git
+.idea
+android
+ios
+build
+.dart_server.err.log
+.dart_server.out.log
+.flutter-plugins-dependencies
+test
+assets
