@@ -8,7 +8,8 @@ RUN dart pub get --directory server
 COPY tool ./tool
 COPY server ./server
 RUN dart pub get --directory server
-RUN dart compile exe server/bin/match_server.dart -o /app/bin/mythic_siege_server
+RUN mkdir -p /app/bin \
+    && dart compile exe server/bin/match_server.dart -o /app/bin/mythic_siege_server
 
 FROM debian:bookworm-slim
 
